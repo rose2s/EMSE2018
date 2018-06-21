@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+## Designing Smart City Mobile Applications 
+# A initial Grounded Theory
 
 You can use the [editor on GitHub](https://github.com/rose2s/EMSE2018/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
