@@ -1,4 +1,4 @@
-# Designing Smart City Mobile Applications: A initial Grounded Theory
+## Designing Smart City Mobile Applications: A initial Grounded Theory
 
 ### CASE STUDY
 
