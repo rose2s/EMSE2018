@@ -1,38 +1,47 @@
-## Designing Smart City Mobile Applications 
-# A initial Grounded Theory
+# Designing Smart City Mobile Applications: A initial Grounded Theory
 
-You can use the [editor on GitHub](https://github.com/rose2s/EMSE2018/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+### CASE STUDY
 
 [Link](url) and ![Image](src)
+
+**********
+
+### EXPERIMENTAL STUDY
+
+> **Steps**
+
+    - Get the apk file
+    - Use COVERT tool to generate the intermediate code (*file.xml*)
+    - Add *file.xml* into *ACME-Generator* folder with *file.apk*
+    - Execute the comand line to generate *file.acme*
+    - Open *file.acme* in ACME STUDIO
+    
+### APk & COVERT
+
+```sh
+$ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+| Apk converter | Site |
+| ------ | ------ |
+|Apkbucket |  [apk-downloader](https://apkbucket.net/apk-downloader) |
+|Apktool |  [apk-dl](http://apk-dl.com) |
+|Project | [Project](http://www.ics.uci.edu/~seal/projects/covert/index.html) |
+|Tutorial | [Tutorial](http://www.ics.uci.edu/~seal/projects/covert/COVERT%20User%20Manual_v2.0.pdf) |
+|ACME-Generator | [ACME-Generator](https://github.com/arsadeghi/ACME-Generator) |
 
-### Jekyll Themes
+- Add o file *example.apk* em Covert folder
+- Comando: ```sh $ ./covert.sh folder ```
+- Output: *example.xml* (locaded in folder/analysis/model/example.xml)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rose2s/EMSE2018/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### ACME-Generator
+- Add a saída do covert na pasta ACME-Generator-master
+- Comando: ```sh run.py ./apps/example.apk ./resources    ```
+- Output: *example.acme*
 
-### Support or Contact
+### ACME STUDIO
+- Create a new project
+- Add file *example.acme* in ACME workspace
+- Refresh project
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**********
