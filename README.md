@@ -80,31 +80,30 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 ### Theory
 
 #### Constructs of the theory
+ 
 |  | |  |
- :------------: | :----------- | :----------- |
-**C1** | *Architecture design* | A high-level structural design of a software system.
-**C2** | *Architectural styles* | A set of design decisions that identify the kinds of components and connectors that may be used to compose a system or subsystem. |
-**C3** | *Design Decisions* | A description of the set of architectural additions,  subtractions and modifications to the software architecture, the rationales, design rules, and design constraints and additional requirements that (partially) realize one or more requirements on a given architecture.
-**C4** | *Technical debt* | A concept in SE that reflects the extra development work that arises when code that is easy to implement in the short run is used instead of applying the best overall solution. 
-**C5** | *Smart city context* | Mobile apps about city innovation in management and policy as well as technology. 
-**C6**| *Domain experts* | A person with special knowledge in the context in the domain of smart cities (e.g., a firefighter is an expert in an emergency management app).
-**C7** | *Technical skills* | Abilities needed for software programming.
-**C8** | *Documentation* | Artifacts about the software (e.g., requirement specification).
-**C9** | *Functional requirements* | A requirement that defines what a system is supposed to do.
-**C10** | *Non-functional requirements* | A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors.
-**C11** | *Technologies* | Technical tools that support the software development.
-**C12** | *API* | A software intermediary that allows apps to talk to each other.
-**C13** | *Framework* | It is a coherent unit of reuse, both by use-relationships and by extension through sub-classing.
-**C14** | *Software development* | The process of specifying, designing, developing, and testing involved in mobile applications. 
-**C15** | *Challenges* |Challenges faced when designing and developing a SCMA. 
-**C16** | *Development Approach* | There are three primary approaches to building mobile apps: web, hybrid and native.
-**C17** | *Resources management* |The effective use of mobile resources.
-**C18** | *Software Testing* |An investigation conducted to provide information about the \quality of the software product.
-**C19** | *Testing Tools* | Software intended to help software engineers to find bugs in mobile apps.
-**C20** | *Testing Issues* | Issues related to testing mobile software (e.g., testing real scenarios).
-**C21** | *User Training* | Process of training a staff who will work supporting the citizen through the app. 
-
-
+| :------: | :------ | :------ |
+| **C1** | *Architecture design* | A high-level structural design of a software system.
+| **C2** | *Architectural styles* | A set of design decisions that identify the kinds of components and connectors that may be used to compose a system or subsystem. |
+| **C3** | *Design Decisions* | A description of the set of architectural additions,  subtractions and modifications to the software architecture, the rationales, design rules, and design constraints and additional requirements that (partially) realize one or more requirements on a given architecture.
+| **C4** | *Technical debt* | A concept in SE that reflects the extra development work that arises when code that is easy to implement in the short run is used instead of applying the best overall solution. 
+| **C5** | *Smart city context* | Mobile apps about city innovation in management and policy as well as technology. 
+| **C6**| *Domain experts* | A person with special knowledge in the context in the domain of smart cities (e.g., a firefighter is an expert in an emergency management app).
+| **C7** | *Technical skills* | Abilities needed for software programming.
+| **C8** | *Documentation* | Artifacts about the software (e.g., requirement specification).
+| **C9** | *Functional requirements* | A requirement that defines what a system is supposed to do.
+| **C10** | *Non-functional requirements* | A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors.
+| **C11** | *Technologies* | Technical tools that support the software development.
+| **C12** | *API* | A software intermediary that allows apps to talk to each other.
+| **C13** | *Framework* | It is a coherent unit of reuse, both by use-relationships and by extension through sub-classing.
+| **C14** | *Software development* | The process of specifying, designing, developing, and testing involved in mobile applications. 
+| **C15** | *Challenges* |Challenges faced when designing and developing a SCMA. 
+| **C16** | *Development Approach* | There are three primary approaches to building mobile apps: web, hybrid and native.
+| **C17** | *Resources management* |The effective use of mobile resources.
+| **C18** | *Software Testing* |An investigation conducted to provide information about the \quality of the software product.
+| **C19** | *Testing Tools* | Software intended to help software engineers to find bugs in mobile apps.
+| **C20** | *Testing Issues* | Issues related to testing mobile software (e.g., testing real scenarios).
+| **C21** | *User Training* | Process of training a staff who will work supporting the citizen through the app. 
 #### Propositions of the theory
 
 
