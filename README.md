@@ -3,7 +3,7 @@
 This web page presents the supplementary material of the paper *Designing Smart City Mobile Applications: An Initial Grounded Theory*.
 
 ### Research Study
-![Research Design](https://github.com/rose2s/EMSE2018/blob/master/Research%20design.png)
+![Research Design](https://goo.gl/fPcKyG)
 
 #### **Interview Questions**
 #### Card 1: Requirements
@@ -129,5 +129,4 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 
 #### Representation of the theory
 Figure 2 represents the theory in accordance with the constructs and propositions.
-![model](https://github.com/rose2s/EMSE2018/blob/master/theory.png)
-
+![model](https://goo.gl/3a5C2v)
