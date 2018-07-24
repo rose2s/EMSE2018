@@ -3,7 +3,7 @@
 This web page presents the supplementary material of the paper *Designing Smart City Mobile Applications: An Initial Grounded Theory*.
 
 ### Research Study
-![Research Design](https://goo.gl/fPcKyG)
+![Research Design](https://github.com/rose2s/EMSE2018/blob/master/research-design.jpg)
 
 #### **Interview Questions**
 #### Card 1: Requirements
