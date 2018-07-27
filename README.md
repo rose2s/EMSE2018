@@ -10,11 +10,17 @@ The software architecture community has played a crucial role in the development
 ### Research Design
 ![Research Design](research-design.jpg)
 
+Figure 1 describes the design of this study in terms of the activities and flow of information. The data collection activities are divided into two phases, which is described next.
+
+**********
+
 #### DATA COLLECTION
 #### Phase 1: Case Study
+In phase 1 of this study, we conducted a multi case study using background questionnaires, archival records of the applications and 19 interviews with stakeholders of SE teams. This material presents the interview planning and the interview questions.
+
 - [Interview Planning](https://goo.gl/idePKH) 
 
-| INTERVIEW | QUESTIONS |
+| INTERVIEW  |  QUESTIONS |
  :------------: | :------------ |
 | **Card 1** | **Requirements** |
 |  Q1 | What was your main role in the application?|
@@ -25,13 +31,13 @@ The software architecture community has played a crucial role in the development
 |  Q6 | Was there any documentation? |
 |  Q7 | Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
 |  Q8 | Could you cite any problem encountered and how did you resolve it?
-|  Q9 | *Show a list of non-funcional requirements and ask the following questions for each one:*  **a**. Why ```performance``` was [not] crucial; **b**. How did you deal with ```performance``` issues?; **c**. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure ```performance```? |
+|  Q9 | *Show a list of non-funcional requirements and ask the following questions for each one:* **a**. Why ```performance``` was [not] crucial;  **b**. How did you deal with ```performance``` issues?; **c**. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure ```performance```? |
 | **Card 2** | **Software Architecture** |
 |  Q10 | How was the system architecture designed? Was it based on something?|
 |  Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
 |  Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
-|  Q13 | Has any architectural pattern been adopted? (show [List of architectural patterns](https://goo.gl/e62m6q))|
-|  Q14 | Has any architectural style been adopted? (show [List of architectural patterns](https://goo.gl/e62m6q))|
+|  Q13 | Has any architectural pattern been adopted? (show [list of architectural patterns](https://goo.gl/e62m6q))|
+|  Q14 | Has any architectural style been adopted? (show [list of architectural styles](https://goo.gl/e62m6q))|
 | **Card 3** | **Mobile Development** |
 |  Q14 |What were the main challenges faced in the development of the mobile application?|
 |  Q14 | What development approach (native, hybrid or web) was used to develop the application? Why?|
@@ -40,17 +46,23 @@ The software architecture community has played a crucial role in the development
 |  Q14 | Have you thought about maximizing battery life and managing these resources? How?|
 |  Q14 | Has any test method for mobile applications been used? Which one?|
 
-### Reverse-Engineering Architecture
+**********
 
-> **Steps**
+#### Phase 2: Reverse-Engineering Architecture
 
-    - Get the apk file
-    - Use COVERT tool to generate the intermediate code (*file.xml*)
-    - Add *file.xml* into *ACME-Generator* folder with *file.apk*
-    - Execute the comand line to generate *file.acme*
-    - Open *file.acme* in ACME STUDIO
+In phase 2 of this study, we reverse-engineered a subset of those apps that were available in the Google Play store, which was used to validate the results of the data analysis. This material provides the full tutorial of the reverse-engineering so that other researchers can replicate it, and the list of recovered architectures.
+
+- [List of recovered architectures]()
+
+> **Tutorial Steps**
+
+    -  Get the apk file
+    -  Use COVERT tool to generate the intermediate code (*file.xml*)
+    -  Add *file.xml* into *ACME-Generator* folder with *file.apk*
+    -  Execute the comand line to generate *file.acme*
+    -  Open *file.acme* in ACME STUDIO
     
-##### APk & COVERT
+##### a) APk & COVERT
 
 ```sh
 $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
@@ -64,23 +76,26 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 |Tutorial | [Tutorial](http://www.ics.uci.edu/~seal/projects/covert/COVERT%20User%20Manual_v2.0.pdf) |
 |ACME-Generator | [ACME-Generator](https://github.com/arsadeghi/ACME-Generator) |
 
-- Add o file *example.apk* em Covert folder
-- Comando: ```sh $ ./covert.sh folder ```
+- Add the file *example.apk* in the folder *Covert*
+- Command line: ```sh $ ./covert.sh folder ```
 - Output: *example.xml* (locaded in folder/analysis/model/example.xml)
 
-##### ACME-Generator
-- Add a saída do covert na pasta ACME-Generator-master
-- Comando: ```sh run.py ./apps/example.apk ./resources    ```
+##### b) ACME-Generator
+- Add the *example.xml* in the folder *ACME-Generator-master*
+- Command line: ```sh run.py ./apps/example.apk ./resources    ```
 - Output: *example.acme*
 
-##### ACME STUDIO
+##### c) ACME STUDIO
 - Create a new project
-- Add file *example.acme* in ACME workspace
-- Refresh project
+- Add the file *example.acme* in *ACME* workspace
+- Refresh the project
 
 **********
+#### DATA ANALYSIS
+For the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory.
 
-### Theory
+#### Theory 
+The theory explains how SE teams design smart city mobile applications through the coding analysis of the case studies. The theory was presented according to [Sjøberg](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12) notation (Sjøberg, 2008), i.e., using constructs and propositions (P).
 
 #### Constructs of the theory
 
@@ -133,3 +148,11 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 #### Representation of the theory
 Figure 2 represents the theory in accordance with the constructs and propositions.
 ![model](theory.png)
+
+#### References
+
+Dag I. K. Sjøberg, Tore Dybå, Bente C. D. Anda, and Jo E. Hannay, Building Theories in Software Engineering. Springer London, London, 312–336, 2008.
+
+Taylor RN, Medvidovic N, Dashofy EM (2009) Software architecture: foundations, theory, and practice. Wiley, 1 edition
+
+
