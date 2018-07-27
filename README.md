@@ -15,7 +15,7 @@ Mobile applications in the context of smart cities are very challenging since th
 #### Phase 1: Case Study
 
 | INTERVIEW | QUESTIONS |
-| ------ | ------ |
+ :------------: | :------------ |
 | **Card 1** | **Requirements** |
 |Q1 | What was your main role in the application?|
 |Q2 | Could you talk about the software development team members of the project? |
@@ -84,9 +84,9 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 ### Theory
 
 #### Constructs of the theory
- 
-|  | |  |
-| :------: | :------ | :------ |
+
+|  |  |  |
+:------------: | :----------- | :------------ |
 | **C1** | *Architecture design* | A high-level structural design of a software system.
 | **C2** | *Architectural styles* | A set of design decisions that identify the kinds of components and connectors that may be used to compose a system or subsystem. |
 | **C3** | *Design Decisions* | A description of the set of architectural additions,  subtractions and modifications to the software architecture, the rationales, design rules, and design constraints and additional requirements that (partially) realize one or more requirements on a given architecture.
@@ -104,7 +104,7 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 | **C15** | *Challenges* |Challenges faced when designing and developing a SCMA. 
 | **C16** | *Development Approach* | There are three primary approaches to building mobile apps: web, hybrid and native.
 | **C17** | *Resources management* |The effective use of mobile resources.
-| **C18** | *Software Testing* |An investigation conducted to provide information about the \quality of the software product.
+| **C18** | *Software Testing* |An investigation conducted to provide information about the quality of the software product.
 | **C19** | *Testing Tools* | Software intended to help software engineers to find bugs in mobile apps.
 | **C20** | *Testing Issues* | Issues related to testing mobile software (e.g., testing real scenarios).
 | **C21** | *User Training* | Process of training a staff who will work supporting the citizen through the app. 
