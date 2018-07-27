@@ -12,6 +12,7 @@ The software architecture community has played a crucial role in the development
 
 #### DATA COLLECTION
 #### Phase 1: Case Study
+- [Interview Planning](https://goo.gl/idePKH) 
 
 | INTERVIEW | QUESTIONS |
  :------------: | :------------ |
@@ -29,8 +30,8 @@ The software architecture community has played a crucial role in the development
 |  Q10 | How was the system architecture designed? Was it based on something?|
 |  Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
 |  Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
-|  Q13 | Has any architectural pattern been adopted? (show pattern's list)|
-|  Q14 | Has any architectural style been adopted? (show style's list)|
+|  Q13 | Has any architectural pattern been adopted? (show [List of architectural patterns](https://goo.gl/e62m6q))|
+|  Q14 | Has any architectural style been adopted? (show [List of architectural patterns](https://goo.gl/e62m6q))|
 | **Card 3** | **Mobile Development** |
 |  Q14 |What were the main challenges faced in the development of the mobile application?|
 |  Q14 | What development approach (native, hybrid or web) was used to develop the application? Why?|
