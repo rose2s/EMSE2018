@@ -13,6 +13,7 @@ Mobile applications in the context of smart cities are very challenging since th
 
 #### DATA COLLECTION
 #### Phase 1: Case Study
+
 | INTERVIEW | QUESTIONS |
 | ------ | ------ |
 | **Card 1** | **Requirements** |
@@ -39,7 +40,6 @@ Mobile applications in the context of smart cities are very challenging since th
 |Q14 | Have you thought about maximizing battery life and managing these resources? How?|
 |Q14 | Has any test method for mobile applications been used? Which one?|
 
-**********
 
 ### Reverse-Engineering Architecture
 
@@ -108,8 +108,8 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 | **C19** | *Testing Tools* | Software intended to help software engineers to find bugs in mobile apps.
 | **C20** | *Testing Issues* | Issues related to testing mobile software (e.g., testing real scenarios).
 | **C21** | *User Training* | Process of training a staff who will work supporting the citizen through the app. 
-#### Propositions of the theory
 
+#### Propositions of the theory
 
 |  | | 
  :------------: | :----------- |
@@ -133,4 +133,4 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 
 #### Representation of the theory
 Figure 2 represents the theory in accordance with the constructs and propositions.
-![model](https://goo.gl/3a5C2v)
+![model](theory.png)
