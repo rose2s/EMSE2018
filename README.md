@@ -5,8 +5,7 @@ Authors: <a href="mailto:roselane.silva@ufba.br">Roselane Santana Silva</a>, Ren
 This web page presents the supplementary material of the paper *Designing Smart City Mobile Applications: An Initial Grounded Theory*.
 
 ### Abstract
-<div class=text-justify> The software architecture community has played a crucial role in the development of mobile software. Many of the ideas used in the design of these systems came from traditional software architecture and those ideas have contributed to mobile computing becoming ubiquitous. 
-Mobile applications in the context of smart cities are very challenging since they need to operate within the power, processor, and capacity limitations of mobile devices, the exacting demands of life critical smart city requirements, and the constantly changing and exposed environment which may not always be trusted. Since there are no widely accepted design models for this type of software, developers must resort to primitive design decisions to meet all the needs of these applications, which takes additional time and expertise. For this reason, the goal of this study is to investigate the design process for mobile applications in the context of smart cities. In order to address the lack of verified information about designing mobile apps, we conducted a multi-case study with 9 applications from 4 different development groups to build a grounded theory. The applications were reverse engineered to expose the architecture of each application. Given this data, interviews were conducted with developers who created the apps being studied. Based on all the data, an initial grounded theory was constructed to explain how the selected design process produces an app with the desired characteristics. The resulting theory offers explanations for how software engineering teams design mobile apps for smart cities. This knowledge will serve as a basis to further understand the phenomena and advances towards more effective design and development process definitions. </div>
+The software architecture community has played a crucial role in the development of mobile software. Many of the ideas used in the design of these systems came from traditional software architecture and those ideas have contributed to mobile computing becoming ubiquitous. Mobile applications in the context of smart cities are very challenging since they need to operate within the power, processor, and capacity limitations of mobile devices, the exacting demands of life critical smart city requirements, and the constantly changing and exposed environment which may not always be trusted. Since there are no widely accepted design models for this type of software, developers must resort to primitive design decisions to meet all the needs of these applications, which takes additional time and expertise. For this reason, the goal of this study is to investigate the design process for mobile applications in the context of smart cities. In order to address the lack of verified information about designing mobile apps, we conducted a multi-case study with 9 applications from 4 different development groups to build a grounded theory. The applications were reverse engineered to expose the architecture of each application. Given this data, interviews were conducted with developers who created the apps being studied. Based on all the data, an initial grounded theory was constructed to explain how the selected design process produces an app with the desired characteristics. The resulting theory offers explanations for how software engineering teams design mobile apps for smart cities. This knowledge will serve as a basis to further understand the phenomena and advances towards more effective design and development process definitions.
 
 ### Research Design
 ![Research Design](research-design.jpg)
@@ -17,29 +16,28 @@ Mobile applications in the context of smart cities are very challenging since th
 | INTERVIEW | QUESTIONS |
  :------------: | :------------ |
 | **Card 1** | **Requirements** |
-|Q1 | What was your main role in the application?|
-|Q2 | Could you talk about the software development team members of the project? |
-|Q3 | How long did this project last?|
-|Q4 | Where did the idea of the app come from? Did you think about the smart city context initially? |
-|Q5 | How were the requirements defined? |
-|Q6 | Was there any documentation? |
-|Q7 | Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
-|Q8 | Could you cite any problem encountered and how did you resolve it?
-|Q9 | (Show a list of non-funcional requirements and ask the following questions for each one:)  **a**. Why <performance> was [not] crucial; **b**. How did you deal with <performance> issues?; **c**. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure <performance>? |
+|  Q1 | What was your main role in the application?|
+|  Q2 | Could you talk about the software development team members of the project? |
+|  Q3 | How long did this project last?|
+|  Q4 | Where did the idea of the app come from? Did you think about the smart city context initially? |
+|  Q5 | How were the requirements defined? |
+|  Q6 | Was there any documentation? |
+|  Q7 | Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
+|  Q8 | Could you cite any problem encountered and how did you resolve it?
+|  Q9 | *Show a list of non-funcional requirements and ask the following questions for each one:*  **a**. Why ```performance``` was [not] crucial; **b**. How did you deal with ```performance``` issues?; **c**. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure ```performance```? |
 | **Card 2** | **Software Architecture** |
-|Q10 | How was the system architecture designed? Was it based on something?|
-|Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
-|Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
-|Q13 | Has any architectural pattern been adopted? (show pattern's list)|
-|Q14 | Has any architectural style been adopted? (show style's list)|
+|  Q10 | How was the system architecture designed? Was it based on something?|
+|  Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
+|  Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
+|  Q13 | Has any architectural pattern been adopted? (show pattern's list)|
+|  Q14 | Has any architectural style been adopted? (show style's list)|
 | **Card 3** | **Mobile Development** |
-|Q14 |What were the main challenges faced in the development of the mobile application?|
-|Q14 | What development approach (native, hybrid or web) was used to develop the application? Why?|
-|Q14 | Have you used any framework during development? Which one?|
-|Q14 | What smartphone features (GPS, camera, audio) does the application use and how?|
-|Q14 | Have you thought about maximizing battery life and managing these resources? How?|
-|Q14 | Has any test method for mobile applications been used? Which one?|
-
+|  Q14 |What were the main challenges faced in the development of the mobile application?|
+|  Q14 | What development approach (native, hybrid or web) was used to develop the application? Why?|
+|  Q14 | Have you used any framework during development? Which one?|
+|  Q14 | What smartphone features (GPS, camera, audio) does the application use and how?|
+|  Q14 | Have you thought about maximizing battery life and managing these resources? How?|
+|  Q14 | Has any test method for mobile applications been used? Which one?|
 
 ### Reverse-Engineering Architecture
 
