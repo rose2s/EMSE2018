@@ -10,7 +10,7 @@ The software architecture community has played a crucial role in the development
 ### Research Design
 ![Research Design](research-design.jpg)
 
-Figure 1 describes the design of this study in terms of the activities and flow of information. The data collection activities are divided into two phases, which is described next.
+Figure 1 describes the design of this study in terms of the activities and flow of information. The data collection activities are divided into two phases: case study and reverse-engineering. In the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory.
 
 **********
 
