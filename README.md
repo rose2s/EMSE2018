@@ -19,10 +19,10 @@ Figure 1 describes the design of this study in terms of the activities and flow 
 In phase 1 of this study, we conducted a multi case study using background questionnaires, archival records of the applications and 19 interviews with stakeholders of SE teams. This material presents the interview planning and the interview questions.
 
 - [Interview Planning](https://goo.gl/idePKH) 
+- Table of interview questions
 
-| INTERVIEW  |  QUESTIONS |
- :------------: | :------------ |
-| **Card 1** | **Requirements** |
+| *Card_1*      |  *Requirements* |
+:------------: | :------------ |
 |  Q1 | What was your main role in the application?|
 |  Q2 | Could you talk about the software development team members of the project? |
 |  Q3 | How long did this project last?|
@@ -32,19 +32,19 @@ In phase 1 of this study, we conducted a multi case study using background quest
 |  Q7 | Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
 |  Q8 | Could you cite any problem encountered and how did you resolve it?
 |  Q9 | *Show a list of non-funcional requirements and ask the following questions for each one:* **a**. Why ```performance``` was [not] crucial;  **b**. How did you deal with ```performance``` issues?; **c**. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure ```performance```? |
-| **Card 2** | **Software Architecture** |
+| ***Card_2*** | ***Software Architecture*** |
 |  Q10 | How was the system architecture designed? Was it based on something?|
 |  Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
 |  Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
 |  Q13 | Has any architectural pattern been adopted? (show [list of architectural patterns](https://goo.gl/e62m6q))|
 |  Q14 | Has any architectural style been adopted? (show [list of architectural styles](https://goo.gl/e62m6q))|
-| **Card 3** | **Mobile Development** |
-|  Q14 |What were the main challenges faced in the development of the mobile application?|
-|  Q14 | What development approach (native, hybrid or web) was used to develop the application? Why?|
-|  Q14 | Have you used any framework during development? Which one?|
-|  Q14 | What smartphone features (GPS, camera, audio) does the application use and how?|
-|  Q14 | Have you thought about maximizing battery life and managing these resources? How?|
-|  Q14 | Has any test method for mobile applications been used? Which one?|
+| ***Card_3*** | ***Mobile Development*** |
+|  Q15 |What were the main challenges faced in the development of the mobile application?|
+|  Q16 | What development approach (native, hybrid or web) was used to develop the application? Why?|
+|  Q17 | Have you used any framework during development? Which one?|
+|  Q18 | What smartphone features (GPS, camera, audio) does the application use and how?|
+|  Q19 | Have you thought about maximizing battery life and managing these resources? How?|
+|  Q20 | Has any test method for mobile applications been used? Which one?|
 
 **********
 
@@ -52,11 +52,20 @@ In phase 1 of this study, we conducted a multi case study using background quest
 
 In phase 2 of this study, we reverse-engineered a subset of those apps that were available in the Google Play store, which was used to validate the results of the data analysis. This material provides the full tutorial of the reverse-engineering so that other researchers can replicate it, and the list of recovered architectures.
 
-- [List of recovered architectures]()
+- Table of feedback interview questions
 
-> **Tutorial Steps**
+| *Card_4*  |  *Architecture Reverse-Engineering* |
+ :------------: | :------------ |
+|  Q21 | Do you recognize these components?|
+|  Q22 | Which of these components have you implemented? |
+|  Q23 | Which of these components belong to the Android framework?|
+|  Q24 | Is there any component that was crucial in the implementation, but this tool did not recover?  |
+|  Q25 | Is there any component that was not recovered?  |
+|  Q26 | Is it possible to identify any architectural style that was used (client server, publish subscribe) or any technology (Fiware, Firebase, Context Broker)?  |
 
-    -  Get the apk file
+- **Tutorial Steps:**
+
+    -  Get the file.apk file
     -  Use COVERT tool to generate the intermediate code (*file.xml*)
     -  Add *file.xml* into *ACME-Generator* folder with *file.apk*
     -  Execute the comand line to generate *file.acme*
@@ -89,6 +98,8 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 - Create a new project
 - Add the file *example.acme* in *ACME* workspace
 - Refresh the project
+
+- [List of recovered architectures](https://goo.gl/z9TWGc)
 
 **********
 #### DATA ANALYSIS
