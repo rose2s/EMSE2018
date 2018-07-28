@@ -8,7 +8,7 @@ This web page presents the supplementary material of the paper *Designing Smart 
 The software architecture community has played a crucial role in the development of mobile software. Many of the ideas used in the design of these systems came from traditional software architecture and those ideas have contributed to mobile computing becoming ubiquitous. Mobile applications in the context of smart cities are very challenging since they need to operate within the power, processor, and capacity limitations of mobile devices, the exacting demands of life critical smart city requirements, and the constantly changing and exposed environment which may not always be trusted. Since there are no widely accepted design models for this type of software, developers must resort to primitive design decisions to meet all the needs of these applications, which takes additional time and expertise. For this reason, the goal of this study is to investigate the design process for mobile applications in the context of smart cities. In order to address the lack of verified information about designing mobile apps, we conducted a multi-case study with 9 applications from 4 different development groups to build a grounded theory. The applications were reverse engineered to expose the architecture of each application. Given this data, interviews were conducted with developers who created the apps being studied. Based on all the data, an initial grounded theory was constructed to explain how the selected design process produces an app with the desired characteristics. The resulting theory offers explanations for how software engineering teams design mobile apps for smart cities. This knowledge will serve as a basis to further understand the phenomena and advances towards more effective design and development process definitions.
 
 ### Research Design
-![Research Design](research-design.jpg)
+![Research Design](research-design.jpg?style=centerme)
 
 Figure 1 describes the design of this study in terms of the activities and flow of information. The data collection activities are divided into two phases: case study and reverse-engineering. In the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory.
 
@@ -18,11 +18,11 @@ Figure 1 describes the design of this study in terms of the activities and flow 
 #### Phase 1: Case Study
 In phase 1 of this study, we conducted a multi case study using background questionnaires, archival records of the applications and 19 interviews with stakeholders of SE teams. This material presents the interview planning and the interview questions.
 
-- [Interview Planning](https://goo.gl/idePKH) 
-- Table of interview questions
+##### [Interview Planning](https://goo.gl/idePKH) 
 
-| *Card_1*      |  *Requirements* |
+| Interview_     |  Questions |
 :------------: | :------------ |
+| ***Card 1***      |  ***Requirements*** |
 |  Q1 | What was your main role in the application?|
 |  Q2 | Could you talk about the software development team members of the project? |
 |  Q3 | How long did this project last?|
@@ -32,13 +32,13 @@ In phase 1 of this study, we conducted a multi case study using background quest
 |  Q7 | Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
 |  Q8 | Could you cite any problem encountered and how did you resolve it?
 |  Q9 | *Show a list of non-funcional requirements and ask the following questions for each one:* **a**. Why ```performance``` was [not] crucial;  **b**. How did you deal with ```performance``` issues?; **c**. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure ```performance```? |
-| ***Card_2*** | ***Software Architecture*** |
+| ***Card 2*** | ***Software Architecture*** |
 |  Q10 | How was the system architecture designed? Was it based on something?|
 |  Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
 |  Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
-|  Q13 | Has any architectural pattern been adopted? (show [list of architectural patterns](https://goo.gl/e62m6q))|
-|  Q14 | Has any architectural style been adopted? (show [list of architectural styles](https://goo.gl/e62m6q))|
-| ***Card_3*** | ***Mobile Development*** |
+|  Q13 | Has any architectural pattern been adopted? (show a [list of architectural patterns](https://goo.gl/e62m6q))|
+|  Q14 | Has any architectural style been adopted? (show [a list of architectural styles](https://goo.gl/e62m6q))|
+| ***Card 3*** | ***Mobile Development*** |
 |  Q15 |What were the main challenges faced in the development of the mobile application?|
 |  Q16 | What development approach (native, hybrid or web) was used to develop the application? Why?|
 |  Q17 | Have you used any framework during development? Which one?|
@@ -52,10 +52,9 @@ In phase 1 of this study, we conducted a multi case study using background quest
 
 In phase 2 of this study, we reverse-engineered a subset of those apps that were available in the Google Play store, which was used to validate the results of the data analysis. This material provides the full tutorial of the reverse-engineering so that other researchers can replicate it, and the list of recovered architectures.
 
-- Table of feedback interview questions
-
-| *Card_4*  |  *Architecture Reverse-Engineering* |
+| *Feedback_*  |  *Interview Questions* |
  :------------: | :------------ |
+| ***Card 4***  |  ***Architecture Reverse-Engineering*** |
 |  Q21 | Do you recognize these components?|
 |  Q22 | Which of these components have you implemented? |
 |  Q23 | Which of these components belong to the Android framework?|
@@ -99,7 +98,7 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 - Add the file *example.acme* in *ACME* workspace
 - Refresh the project
 
-- [List of recovered architectures](https://goo.gl/z9TWGc)
+##### [List of recovered architectures](https://goo.gl/z9TWGc)
 
 **********
 #### DATA ANALYSIS
