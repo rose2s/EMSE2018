@@ -37,7 +37,7 @@ In phase 1 of this study, we conducted a multi case study using background quest
 |  Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
 |  Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
 |  Q13 | Has any architectural pattern been adopted? (show a [list of architectural patterns](https://goo.gl/e62m6q))|
-|  Q14 | Has any architectural style been adopted? (show [a list of architectural styles](https://goo.gl/e62m6q))|
+|  Q14 | Has any architectural style been adopted? (show a [list of architectural styles](https://goo.gl/e62m6q))|
 | ***Card 3*** | ***Mobile Development*** |
 |  Q15 |What were the main challenges faced in the development of the mobile application?|
 |  Q16 | What development approach (native, hybrid or web) was used to develop the application? Why?|
@@ -52,7 +52,7 @@ In phase 1 of this study, we conducted a multi case study using background quest
 
 In phase 2 of this study, we reverse-engineered a subset of those apps that were available in the Google Play store, which was used to validate the results of the data analysis. This material provides the full tutorial of the reverse-engineering so that other researchers can replicate it, and the list of recovered architectures.
 
-| *Feedback_*  |  *Interview Questions* |
+| *Feedback_*  |  *Interview_Questions* |
  :------------: | :------------ |
 | ***Card 4***  |  ***Architecture Reverse-Engineering*** |
 |  Q21 | Do you recognize these components?|
@@ -102,7 +102,8 @@ $ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
 
 **********
 #### DATA ANALYSIS
-For the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory.
+For the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory. 
+We make available a diagram from our [axial coding](https://goo.gl/k522DQ).
 
 #### Theory 
 The theory explains how SE teams design smart city mobile applications through the coding analysis of the case studies. The theory was presented according to [Sjøberg](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12) notation (Sjøberg, 2008), i.e., using constructs and propositions (P).
