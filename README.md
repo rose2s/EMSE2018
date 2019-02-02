@@ -141,19 +141,19 @@ The theory explains how SE teams design smart city mobile applications through t
 **P1** | Domain experts positively impact the definition of requirements for a SCMA.
 **P2** | The lack of documentation creates technical debt.
 **P3** | Functional requirements for a SCMA come from a smart cities context, which is citizen-oriented.
-**P4** | Most non-functional requirements are not taken into consideration by the SE team when making design decisions.
+**P4** | Some non-functional requirements are not taken into consideration by SE team when making design decisions.
 **P5** | The satisfaction of non-functional requirements depends upon the design decisions made.
 **P6** | The level of technical skills impact the development of SCMA.
-**P7** | Lack of architecture decision-making  creates technical debt.
-**P8** | The architecture design of SCMA is API-centric.
+**P7** | Failing to implement architecture decision creates technical debt.
+**P8** | The architecture design of SCMA is mostly API-centric.
 **P9** | The use of architectural styles positively impacts the design of SCMA.
 **P10** | Effective mobile resource management positively impacts the architecture design of SCMA.
-**P11** | The smart cities context brings complexity to mobile applications.
-**P12** |The development or adoption of smart city frameworks reduces the complexity of the development of SCMA.
-**P13** | The level of development challenges in SCMA depends upon the development approach adopted.
+**P11** | The smart cities context brings more complexity to mobile app back-end.
+**P12** |The development or adoption of smart city frameworks may reduce the complexity of the development of SCMA.
+**P13** | The adopted development approach and its associated tools bring specific development challenges for SCMA.
 **P14** | Smart technologies positively impact the development speed of SCMA.
-**P15** | The lack of testing tools for mobile applications negatively impacts the testing of SCMA.
-**P16** | Training users positively impacts the product acceptance of SCMA.
+**P15** | The lack of automated testing tools for mobile applications negatively impacts the testing process of SCMA.
+**P16** | Training internal users positively impacts the acceptance of SCMA products..
 **P17** | Testing SCMA involves the need to simulate real-world scenarios.
 
 #### Representation of the theory
