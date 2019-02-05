@@ -117,13 +117,13 @@ The theory explains how SE teams design smart city mobile applications through t
 | **C3** | *Design Decisions* | A description of the set of architectural additions,  subtractions and modifications to the software architecture, the rationales, design rules, and design constraints and additional requirements that (partially) realize one or more requirements on a given architecture.
 | **C4** | *Technical debt* | A concept in SE that reflects the extra development work that arises when code that is easy to implement in the short run is used instead of applying the best overall solution. 
 | **C5** | *Smart city context* | Mobile apps about city innovation in management and policy as well as technology. 
-| **C6**| *Domain experts* | A person with special knowledge in the context in the domain of smart cities (e.g., a firefighter is an expert in an emergency management app).
+| **C6**| *Domain experts* | A person with special knowledge in the context in the domain of smart cities (e.g., a firefighter is an expert in emergency management).
 | **C7** | *Technical skills* | Abilities needed for software programming.
-| **C8** | *Documentation* | Artifacts about the software (e.g., requirement specification).
-| **C9** | *Functional requirements* | A requirement that defines what a system is supposed to do.
-| **C10** | *Non-functional requirements* | A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors.
-| **C11** | *Technologies* | Technical tools that support the software development.
-| **C12** | *API* | A software intermediary that allows apps to talk to each other.
+| **C8** | *Documentation* | Artifacts that explain the software (e.g., requirement specification).
+| **C9** | *Functional requirement* | A requirement that defines what a system is supposed to do.
+| **C10** | *Non-functional requirement* | A requirement that specifies criteria that can be used to judge the quality of operation of a system, rather than specific behaviors.
+| **C11** | *Technologies* | Technical tools that support software development.
+| **C12** | *API* | A software intermediary that describes how apps talk to each other.
 | **C13** | *Framework* | It is a coherent unit of reuse, both by use-relationships and by extension through sub-classing.
 | **C14** | *Software development* | The process of specifying, designing, developing, and testing involved in mobile applications. 
 | **C15** | *Challenges* |Challenges faced when designing and developing a SCMA. 
@@ -143,12 +143,12 @@ The theory explains how SE teams design smart city mobile applications through t
 **P3** | Functional requirements for a SCMA come from a smart cities context, which is citizen-oriented.
 **P4** | Some non-functional requirements are not taken into consideration by SE team when making design decisions.
 **P5** | The satisfaction of non-functional requirements depends upon the design decisions made.
-**P6** | The level of technical skills impact the development of SCMA.
-**P7** | Failing to implement architecture decision creates technical debt.
+**P6** | The level of technical skills impacts the development of SCMA.
+**P7** | Failing to implement architecture decisions creates technical debt.
 **P8** | The architecture design of SCMA is mostly API-centric.
 **P9** | The use of architectural styles positively impacts the design of SCMA.
 **P10** | Effective mobile resource management positively impacts the architecture design of SCMA.
-**P11** | The smart cities context brings more complexity to mobile app back-end.
+**P11** | The smart cities context brings more complexity to a mobile app's back-end.
 **P12** |The development or adoption of smart city frameworks may reduce the complexity of the development of SCMA.
 **P13** | The adopted development approach and its associated tools bring specific development challenges for SCMA.
 **P14** | Smart technologies positively impact the development speed of SCMA.
