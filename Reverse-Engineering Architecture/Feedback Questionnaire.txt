@@ -1,0 +1,9 @@
+﻿CARD 4: Architecture Reverse Engineering
+
+
+1. Do you recognize these components?
+2. Which of these components have you implemented?
+3. Which of these components belong to the Android framework?
+4. Is there any component that was crucial in the implementation, but this tool did not recover? 
+5. Is there any component that was not recovered? 
+6. Is it possible to identify any architectural style that was used (client server, publish subscribe) or any technology (Fiware, Firebase, Context Broker)?

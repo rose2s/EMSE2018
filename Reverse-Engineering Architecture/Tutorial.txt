@@ -1,0 +1,37 @@
+﻿Tutorial:
+Reverse-Engineering Architecture
+
+
+This material provides a full tutorial of phase 2: Reverse-Engineering Architecture
+
+
+1. APK Downloader
+   1. Get the example.apk file using APK-Downloader 
+1. COVERT
+   1. Use COVERT tool to generate the intermediate code (example.xml):
+      1. Add the example.apk into Covert/folder
+      2. Run the command: ./covert.sh <folder>
+      3. Output: example.xml (located in folder/analysis/model/example.xml)        
+1. ACME-Generator
+   1. Add the example.xml into ACME-Generator folder
+   2. Add the example.apk into ACME-Generator folder
+   3. Run the command: sh run.py ./apps/example.apk ./resources
+   4. Output: example.acme
+1. ACME STUDIO                
+   1. Open example.acme in ACME STUDIO:
+1. Create a new project
+2. Add the file <example.acme> in ACME workspace
+3. Refresh and open the project
+
+
+
+
+
+
+References
+
+
+* Covert Tool Project https://www.ics.uci.edu/~seal/projects/covert/index.html
+* COVERT Tool Manual https://www.ics.uci.edu/~seal/projects/covert/COVERT%20User%20Manual_v2.0.pdf
+* ACME Generator https://github.com/arsadeghi/ACME-Generator
+* ACME Studio http://www.cs.cmu.edu/~acme/AcmeStudio/
