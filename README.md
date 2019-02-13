@@ -50,55 +50,13 @@ In phase 1 of this study, we conducted a multi case study using background quest
 
 #### Phase 2: Reverse-Engineering Architecture
 
-In phase 2 of this study, we reverse-engineered a subset of those apps that were available in the Google Play store, which was used to validate the results of the data analysis. This material provides the full tutorial of the reverse-engineering so that other researchers can replicate it, and the list of recovered architectures.
+In phase 2 of this study, we reverse-engineered a subset of those apps that were available in the Google Play store, which was used to validate the results of the data analysis. This replication package contains:
 
-| *Feedback_*  |  *Interview_Questions* |
- :------------: | :------------ |
-| ***Card 4***  |  ***Architecture Reverse-Engineering*** |
-|  Q21 | Do you recognize these components?|
-|  Q22 | Which of these components have you implemented? |
-|  Q23 | Which of these components belong to the Android framework?|
-|  Q24 | Is there any component that was crucial in the implementation, but this tool did not recover?  |
-|  Q25 | Is there any component that was not recovered?  |
-|  Q26 | Is it possible to identify any architectural style that was used (client server, publish subscribe) or any technology (Fiware, Firebase, Context Broker)?  |
-
-- **Tutorial Steps:**
-
-    -  Get the file.apk file
-    -  Use COVERT tool to generate the intermediate code (*file.xml*)
-    -  Add *file.xml* into *ACME-Generator* folder with *file.apk*
-    -  Execute the comand line to generate *file.acme*
-    -  Open *file.acme* in ACME STUDIO
-    
-##### a) APk & COVERT
-
-```sh
-$ java -jar apktool.jar d K-9\ Mail_5.207_apk-dl.com.apk -f
-```
-
-| Apk converter | Site |
-| ------ | ------ |
-|Apkbucket |  [apk-downloader](https://apkbucket.net/apk-downloader) |
-|Apktool |  [apk-dl](http://apk-dl.com) |
-|Project | [Project](http://www.ics.uci.edu/~seal/projects/covert/index.html) |
-|Tutorial | [Tutorial](http://www.ics.uci.edu/~seal/projects/covert/COVERT%20User%20Manual_v2.0.pdf) |
-|ACME-Generator | [ACME-Generator](https://github.com/arsadeghi/ACME-Generator) |
-
-- Add the file *example.apk* in the folder *Covert*
-- Command line: ```sh $ ./covert.sh folder ```
-- Output: *example.xml* (locaded in folder/analysis/model/example.xml)
-
-##### b) ACME-Generator
-- Add the *example.xml* in the folder *ACME-Generator-master*
-- Command line: ```sh run.py ./apps/example.apk ./resources    ```
-- Output: *example.acme*
-
-##### c) ACME STUDIO
-- Create a new project
-- Add the file *example.acme* in *ACME* workspace
-- Refresh the project
-
-##### [List of recovered architectures](https://goo.gl/z9TWGc)
+* The full [tutorial](https://github.com/rose2s/EMSE2019/blob/master/Reverse-Engineering%20Architecture/Tutorial.txt) of the Reverse-Engineering Architecture;
+* The [APKs](https://github.com/rose2s/EMSE2019/tree/master/Reverse-Engineering%20Architecture/apks) of the apps used for the study;
+* The [acme](https://github.com/rose2s/EMSE2019/tree/master/Reverse-Engineering%20Architecture/acme) files of the apps used to open the architecture in ACME Studio tool;
+* The [screenshots](https://github.com/rose2s/EMSE2019/tree/master/Reverse-Engineering%20Architecture/images) of the recovered architectures;
+* The [feedback questionnaire](https://github.com/rose2s/EMSE2019/blob/master/Reverse-Engineering%20Architecture/Feedback%20Questionnaire.txt) used to validate the recovered architectures;
 
 **********
 #### DATA ANALYSIS
