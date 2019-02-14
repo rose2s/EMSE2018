@@ -16,35 +16,10 @@ Figure 1 describes the design of this study in terms of the activities and flow 
 
 #### DATA COLLECTION
 #### Phase 1: Case Study
-In phase 1 of this study, we conducted a multi case study using background questionnaires, archival records of the applications and 19 interviews with stakeholders of SE teams. This material presents the interview planning and the interview questions.
+In phase 1 of this study, we conducted a multi case study using background questionnaires, archival records of the applications and 19 interviews with stakeholders of SE teams. This contains:
 
-##### [Interview Planning](https://goo.gl/idePKH) 
-
-| Interview_     |  Questions |
-:------------: | :------------ |
-| ***Card 1***      |  ***Requirements*** |
-|  Q1 | What was your main role in the application?|
-|  Q2 | Could you talk about the software development team members of the project? |
-|  Q3 | How long did this project last?|
-|  Q4 | Where did the idea of the app come from? Did you think about the smart city context initially? |
-|  Q5 | How were the requirements defined? |
-|  Q6 | Was there any documentation? |
-|  Q7 | Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
-|  Q8 | Could you cite any problem encountered and how did you resolve it?
-|  Q9 | *Show a list of non-funcional requirements and ask the following questions for each one:* **a**. Why ```performance``` was [not] crucial;  **b**. How did you deal with ```performance``` issues?; **c**. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure ```performance```? |
-| ***Card 2*** | ***Software Architecture*** |
-|  Q10 | How was the system architecture designed? Was it based on something?|
-|  Q11 | Have you participated in any design decision in Architecture? Do you remember any?|
-|  Q12 | How were non-functional requirements (RNF) mapped in the architecture? How were they modeled? (Give examples of RNF)|
-|  Q13 | Has any architectural pattern been adopted? (show a [list of architectural patterns](https://goo.gl/e62m6q))|
-|  Q14 | Has any architectural style been adopted? (show a [list of architectural styles](https://goo.gl/e62m6q))|
-| ***Card 3*** | ***Mobile Development*** |
-|  Q15 |What were the main challenges faced in the development of the mobile application?|
-|  Q16 | What development approach (native, hybrid or web) was used to develop the application? Why?|
-|  Q17 | Have you used any framework during development? Which one?|
-|  Q18 | What smartphone features (GPS, camera, audio) does the application use and how?|
-|  Q19 | Have you thought about maximizing battery life and managing these resources? How?|
-|  Q20 | Has any test method for mobile applications been used? Which one?|
+* The [Interview Planning](https://github.com/rose2s/EMSE2019/blob/master/Case%20Study/Interview%20Planning.xlsx)
+* The [Interview Protocol](https://github.com/rose2s/EMSE2019/blob/master/Case%20Study/Interview%20Protocol.txt)
 
 **********
 
@@ -115,7 +90,8 @@ The theory explains how SE teams design smart city mobile applications through t
 **P17** | Testing SCMA involves the need to simulate real-world scenarios.
 
 #### Representation of the theory
-Figure 2 represents the theory in accordance with the constructs and propositions.
+Figure 2 represents the theory in accordance with the constructs and propositions of how software engineering teams design mobile apps for
+smart cities
 ![model](theory.png)
 
 #### References
