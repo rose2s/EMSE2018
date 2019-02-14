@@ -4,33 +4,33 @@ The interview will last between 30 to 50 minutes and it is divided into three pa
 
 Card 1: Quality Attributes/Non-Functional Requirements
 
-What was your main role in the application?
-Could you talk about the software development team members of the project? 
-How long did this project last?
-Where did the idea of the app come from? Did you think about the smart city context initially? 
-How were the requirements defined? Was there any documentation? 
-Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
-Could you cite any problem encountered and how did you solve it?
-[Show a list of quality attributes, and ask the following questions for each one:]
-Why <performance> was/was not crucial;  
-How did you deal with <performance> issues?; 
-How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure <performance>? 
+1. What was your main role in the application?
+2. Could you talk about the software development team members of the project? 
+3. How long did this project last?
+4. Where did the idea of the app come from? Did you think about the smart city context initially? 
+5. How were the requirements defined? Was there any documentation? 
+6. Did you analyze the main challenges of the project from a development perspective? If so, how did you mitigate them?
+7. Could you cite any problem encountered and how did you solve it?
+8. [Show a list of quality attributes, and ask the following questions for each one:]
+	a. Why <performance> was/was not crucial;  
+	b. How did you deal with <performance> issues?; 
+	c. How was it specified? How was it modeled in the architecture? How was it implemented? What aspects of testing were applied to ensure <performance>? 
 
 Card 2: Software Architecture
 
-How was the system architecture designed? Was it based on other architecture/frameworks?
-Have you participated in any design decision in Architecture? If so, do you remember any design decision your team made? why?
-How were the quality attributes mapped in the architecture? How were they modeled? [Give examples]
-Has any architectural pattern been adopted? [Give examples]
-Has any architectural style been adopted? [Give examples]
+9. How was the system architecture designed? Was it based on other architecture/frameworks?
+10. Have you participated in any design decision in Architecture? If so, do you remember any design decision your team made? why?
+11. How were the quality attributes mapped in the architecture? How were they modeled? [Give examples]
+12. Has any architectural pattern been adopted? [Give examples]
+13. Has any architectural style been adopted? [Give examples]
 
 Card 3: Mobile Development
 
-What were the main challenges faced in the development of the mobile application?
-What development approach (native, hybrid) was used to develop the application? Why? 
-Have you used any framework during design/development phase? Which ones?
-What smartphone features (GPS, camera, audio) does the application use and how? How did it impact the architecture?
-Have you thought about maximizing battery life and managing these resources? How?
-Has any test method for mobile applications been used? 
+14. What were the main challenges faced in the development of the mobile application?
+15. What development approach (native, hybrid) was used to develop the application? Why? 
+16. Have you used any framework during design/development phase? Which ones?
+17. What smartphone features (GPS, camera, audio) does the application use and how? How did it impact the architecture?
+18. Have you thought about maximizing battery life and managing these resources? How?
+19. Has any test method for mobile applications been used? 
 
 Any final thoughts? Thank you for your time. 
