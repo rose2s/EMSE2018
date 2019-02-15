@@ -44,11 +44,7 @@ We make available:
 ### Theory 
 The theory explains how SE teams design smart city mobile applications through the coding analysis of the case studies. The theory was presented according to [Sjøberg](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12) notation (Sjøberg, 2008), i.e., using constructs (C) and propositions (P).
 
-![model](theory.png)
-Figure 2 represents the theory in accordance with the constructs and propositions of how software engineering teams design mobile apps for
-smart cities
-
-#### Propositions of the theory
+The table below describes the final *propositions* produced by our study: 
 
 |  | | 
  :------------: | :----------- |
@@ -69,6 +65,9 @@ smart cities
 **P15** | The lack of automated testing tools for mobile applications negatively impacts the testing process of SCMA.
 **P16** | Training internal users positively impacts the acceptance of SCMA products..
 **P17** | Testing SCMA involves the need to simulate real-world scenarios.
+
+![model](theory.png)
+Figure 2 represents the *theory* in accordance with the constructs and propositions of how software engineering teams design mobile apps for smart cities. These relationships were based on information from several sources including discussions with the study participants, the professional and research literature, and the experience of the authors. 
 
 #### References
 
