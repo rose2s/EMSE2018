@@ -66,8 +66,12 @@ The table below describes the final *propositions* produced by our study:
 **P16** | Training internal users positively impacts the acceptance of SCMA products..
 **P17** | Testing SCMA involves the need to simulate real-world scenarios.
 
+**********
+
 ![model](theory.png)
 Figure 2 represents the *theory* in accordance with the constructs and propositions of how software engineering teams design mobile apps for smart cities. These relationships were based on information from several sources including discussions with the study participants, the professional and research literature, and the experience of the authors. 
+
+**********
 
 #### References
 
