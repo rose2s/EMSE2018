@@ -18,9 +18,9 @@ Figure 1 describes the design of this study in terms of the activities and flow 
 #### Phase 1: Case Study
 In phase 1 of this study, we conducted a multi case study using background questionnaires, archival records of the applications and 19 interviews with stakeholders of SE teams. We provide the following artifacts:
 
-* [Background Questionnaire](https://goo.gl/forms/G1kQeTNhXL1XdseI3)
-* [Interview Planning](https://github.com/rose2s/EMSE2019/blob/master/Case%20Study/Interview%20Planning.xlsx)
-* [Interview Protocol](https://github.com/rose2s/EMSE2019/blob/master/Case%20Study/Interview%20Protocol.txt)
+* The [background questionnaire](https://goo.gl/forms/G1kQeTNhXL1XdseI3)
+* The [interview planning](https://github.com/rose2s/EMSE2019/blob/master/Case%20Study/Interview%20Planning.xlsx)
+* The [interview protocol](https://github.com/rose2s/EMSE2019/blob/master/Case%20Study/Interview%20Protocol.txt)
 
 **********
 
@@ -37,9 +37,10 @@ In phase 2 of this study, we reverse-engineered the software architecture of six
 **********
 ### DATA ANALYSIS
 For the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory. 
-We make available:
-* The diagram from our [axial coding](https://goo.gl/k522DQ);
+We provide the following artifacts:
+
 * The [coding project](https://github.com/rose2s/EMSE2019/blob/master/Coding.qdp) in QDAMiner tool
+* The diagram from our [axial coding](https://goo.gl/k522DQ);
 
 #### Theory 
 The theory explains how SE teams design smart city mobile applications through the coding analysis of the case studies. It was presented according to [Sjøberg](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12) notation (Sjøberg, 2008), i.e., using constructs (C) and propositions (P).
