@@ -1,21 +1,21 @@
-# Designing Smart City Mobile Applications: An Initial Grounded Theory
+## Designing Smart City Mobile Applications: An Initial Grounded Theory
 
 Authors: <a href="mailto:roselane.silva@ufba.br">Roselane Santana Silva</a>, Renata Souza Santos, John D. McGregor and Eduardo Santana de Almeida
 
 This web page presents the supplementary material of the paper *Designing Smart City Mobile Applications: An Initial Grounded Theory*.
 
-## Abstract
+### Abstract
 The software architecture community has played a crucial role in the development of mobile software. Many of the ideas used in the design of these systems came from traditional software architecture and those ideas have contributed to mobile computing becoming ubiquitous. Mobile applications in the context of smart cities are very challenging since they need to operate within the power, processor, and capacity limitations of mobile devices, the exacting demands of life critical smart city requirements, and the constantly changing and exposed environment which may not always be trusted. Since there are no widely accepted design models for this type of software, developers must resort to primitive design decisions to meet all the needs of these applications, which takes additional time and expertise. For this reason, the goal of this study is to investigate the design process for mobile applications in the context of smart cities. In order to address the lack of verified information about designing mobile apps, we conducted a multi-case study with 9 applications from 4 different development groups to build a grounded theory. The applications were reverse engineered to expose the architecture of each application. Given this data, interviews were conducted with developers who created the apps being studied. Based on all the data, an initial grounded theory was constructed to explain how the selected design process produces an app with the desired characteristics. The resulting theory offers explanations for how software engineering teams design mobile apps for smart cities. This knowledge will serve as a basis to further understand the phenomena and advances towards more effective design and development process definitions.
 
-## Research Design 
+### Research Design 
 ![Research Design](research-design.jpg?style=centerme)
 
 Figure 1 describes the design of this study in terms of the activities and flow of information. The data collection activities are divided into two phases: case study and reverse-engineering. In the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory.
 
 **********
 
-## DATA COLLECTION
-### Phase 1: Case Study
+### DATA COLLECTION
+#### Phase 1: Case Study
 In phase 1 of this study, we conducted a multi case study using background questionnaires, archival records of the applications and 19 interviews with stakeholders of SE teams. We provide the following artifacts:
 
 * [Background Questionnaire](https://goo.gl/forms/G1kQeTNhXL1XdseI3)
@@ -24,7 +24,7 @@ In phase 1 of this study, we conducted a multi case study using background quest
 
 **********
 
-### Phase 2: Reverse-Engineering Architecture
+#### Phase 2: Reverse-Engineering Architecture
 
 In phase 2 of this study, we reverse-engineered the software architecture of six apps that either were available in Google Play Store or we had acess to its APK file. This replication package contains:
 
@@ -35,14 +35,14 @@ In phase 2 of this study, we reverse-engineered the software architecture of six
 * The [feedback questionnaire](https://github.com/rose2s/EMSE2019/blob/master/Reverse-Engineering%20Architecture/Feedback%20Questionnaire.txt) used to validate the recovered architectures;
 
 **********
-## DATA ANALYSIS
+### DATA ANALYSIS
 For the data analysis process we analyzed the evidence from the case study using Grounded Theory (GT) procedures to derive a theory. 
 We make available:
 * The diagram from our [axial coding](https://goo.gl/k522DQ);
 * The [coding project](https://github.com/rose2s/EMSE2019/blob/master/Coding.qdp) in QDAMiner tool
 
-### Theory 
-The theory explains how SE teams design smart city mobile applications through the coding analysis of the case studies. The theory was presented according to [Sjøberg](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12) notation (Sjøberg, 2008), i.e., using constructs (C) and propositions (P).
+#### Theory 
+The theory explains how SE teams design smart city mobile applications through the coding analysis of the case studies. It was presented according to [Sjøberg](https://link.springer.com/chapter/10.1007%2F978-1-84800-044-5_12) notation (Sjøberg, 2008), i.e., using constructs (C) and propositions (P).
 
 The table below describes the final *propositions* produced by our study: 
 
