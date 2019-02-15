@@ -26,11 +26,11 @@ In phase 1 of this study, we conducted a multi case study using background quest
 
 #### Phase 2: Reverse-Engineering Architecture
 
-In phase 2 of this study, we reverse-engineered the software architecture of six apps that either were available in Google Play Store or we had acess to its APK file. This replication package contains:
+In phase 2 of this study, we reverse-engineered the software architecture of six apps that were either available in Google Play Store or we had acess to its APK file. This replication package contains:
 
 * The full [tutorial](https://github.com/rose2s/EMSE2019/blob/master/Reverse-Engineering%20Architecture/Tutorial.txt) of the Reverse-Engineering Architecture;
 * The [APKs](https://github.com/rose2s/EMSE2019/tree/master/Reverse-Engineering%20Architecture/apks) of the apps used for the study;
-* The [acme](https://github.com/rose2s/EMSE2019/tree/master/Reverse-Engineering%20Architecture/acme) files of the apps used to open the architecture in ACME Studio tool;
+* The [acme](https://github.com/rose2s/EMSE2019/tree/master/Reverse-Engineering%20Architecture/acme) projects of the architecture used in ACME Studio tool;
 * The [screenshots](https://github.com/rose2s/EMSE2019/tree/master/Reverse-Engineering%20Architecture/images) of the recovered architectures;
 * The [feedback questionnaire](https://github.com/rose2s/EMSE2019/blob/master/Reverse-Engineering%20Architecture/Feedback%20Questionnaire.txt) used to validate the recovered architectures;
 
